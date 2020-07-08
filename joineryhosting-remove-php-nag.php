@@ -1,33 +1,32 @@
 <?php
 /**
- * Joineryhosting Remove PHP Nag Plugin is the simplest WordPress plugin to forcely remove the PHP Update Required section in your admin dashboard when activated.
+ * Joinery Hosting is the simplest WordPress plugin to forcely remove the PHP Update Required section in your admin dashboard when activated.
  *
- * @package Joineryhosting Remove PHP Nag
- * @author Joineryhosting
+ * @package Joinery Hosting
+ * @author Joinery
  * @license 
  * @link 
- * @copyright 2020 Joineryhosting. All rights reserved.
+ * @copyright 2020 Joinery Hosting. All rights reserved.
  *
  *            @wordpress-plugin
- *            Plugin Name: Joineryhosting Remove PHP Nag Plugin
+ *            Plugin Name: Joinery Hosting
  *            Plugin URI: 
- *            Description: Joineryhosting Remove PHP Nag Plugin is the simplest WordPress plugin to forcely remove the PHP Update Required section in your admin dashboard when activated.
+ *            Description: Joinery Hosting is the simplest WordPress plugin to forcely remove the PHP Update Required section in your admin dashboard when activated.
  *            Version: 1.0
- *            Author: Joineryhosting
+ *            Author: Joinery
  *            Author URI: 
- *            Text Domain: joineryhosting-remove-php-nag
- *            Contributors: Joineryhosting
+ *            Text Domain: joinery
+ *            Contributors: Joinery
  *            License: 
  *            License URI: 
  */
 
 /**
- * Function and Hooks to forcely remove dashboard_php_nag or PHP Update Required section
- *
+ * Function and Hooks
  * @since 1.0
  */
-function remove_php_nag(){
+function joineryhosting_remove_php_nag(){
     remove_meta_box('dashboard_php_nag', 'dashboard', 'normal');
 }
  
-add_action('wp_dashboard_setup', 'remove_php_nag');
+add_action('wp_dashboard_setup', 'joineryhosting_remove_php_nag');
