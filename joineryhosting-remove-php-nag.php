@@ -1,6 +1,6 @@
 <?php
 /**
- * Joinery Hosting is the simplest WordPress plugin to forcely remove the PHP Update Required section in your admin dashboard when activated.
+ * Provides custom functionality for WordPress sites on Joinery hosting.
  *
  * @package Joinery Hosting
  * @author Joinery
@@ -11,7 +11,7 @@
  *            @wordpress-plugin
  *            Plugin Name: Joinery Hosting
  *            Plugin URI: 
- *            Description: Joinery Hosting is the simplest WordPress plugin to forcely remove the PHP Update Required section in your admin dashboard when activated.
+ *            Description: Provides custom functionality for WordPress sites on Joinery hosting.
  *            Version: 1.0
  *            Author: Joinery
  *            Author URI: 
